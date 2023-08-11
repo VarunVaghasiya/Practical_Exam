@@ -1,0 +1,16 @@
+//Write a program to find the maximum number from the given 3 number using the ternary operator.
+#include<stdio.h>
+
+int main(){
+    
+    int i,j,k;
+    
+    printf("Enter any 3 number of your choice : ");
+    scanf("%d,%d,%d",i,j,k);
+    
+    int big = i>j? (i>k?i:k):(j>k?j:k);
+    
+    printf("The maximum number from the given 3 digit is : %d",big);
+    
+    return 0;
+}

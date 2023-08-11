@@ -1,0 +1,32 @@
+#include<stdio.h>
+struct student{
+    int roll_no;
+    int name;
+    int maths_marks;
+    int chem_marks;
+    int phy_marks
+};
+
+int main(){
+    
+    int i,j,s;
+    
+    struct student s[i];
+    
+    
+    printf("Enter roll no : ");
+    scanf("%d",&s[i].roll_no);
+    printf("Enter name : ");
+    scanf("%s",&s[i].name);
+    printf("Enter maths marks : ");
+    scanf("%d",&s[i].maths_marks);
+    printf("Enter chem marks : ");
+    scanf("%d",&s[i].chem_marks);
+    printf("Enter phy marks : ");
+    scanf("%d",&s[i].phy_marks);
+}
+
+printf("student %d\n",s[i].maths_marks,s[i].chem_marks,s[i].phy_marks);
+
+    return 0;
+}
